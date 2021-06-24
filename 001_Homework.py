@@ -6,11 +6,9 @@ else:
     print('The number', (number), 'is odd')
 
 # возведение в квадрат
-
 print('Your number', (number), 'raised to the 2nd power is:', float(number) ** 2)
 
 # количество символов в числе
-
 if len(str(number)) == 1:
     print('There is', len(str(number)), 'digit in your number')
 elif len(str(number)) >= 2:
