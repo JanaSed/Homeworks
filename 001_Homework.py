@@ -1,5 +1,5 @@
 # проверка на четность/нечетность числа
-number = (input('Please enter any number:'))
+number = (input('Please enter any number >0:'))
 if (int(number) % 2) == 0:
     print('The number', (number), 'is even')
 else:
