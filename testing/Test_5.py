@@ -1,0 +1,5 @@
+tuple_a = (1, 2, 3, 5, 8)
+tuple_b = (8, 2, 5)
+tuple_a = list(tuple_a)
+tuple_b = list(tuple_b)
+print(tuple_a[0], tuple_a[1], tuple_b, tuple_a[2:6])
