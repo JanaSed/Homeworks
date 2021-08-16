@@ -15,4 +15,4 @@ if y >= 10:
 if y == int(user_code[10]):
     print('ID is valid')
 else:
-    print('ID is invalid')
+    print('ID is not valid')
